@@ -1,57 +1,50 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-04-20
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
 ### Week 1 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Reviewed the program’s goals and rules to stay on track with all requirements.
+* Reached out to "First Cloud AI Journey" members to get to know the team better.
+* Explored basic AWS services and CLI to get comfortable with the cloud environment.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| 2   | ***Module 01-01 - Introduction to AWS:** <br>&emsp; - Grasped the core components: Data Centers, Availability Zones (AZs), Regions, and Edge Locations/Local Zones. <br> ***Module 01-02 - Management Console:** <br>&emsp; - Differentiated the privilege levels and use cases between the Root Account and IAM Users. <br>&emsp; - Explored the three main interaction interfaces: Management Console, CLI, and SDK. <br> ***Module 01-03 - Gen AI on AWS - Kiro:** <br>&emsp; - Learned about the shift towards Agentic AI and Spec-Driven Development methodologies. <br>&emsp; - Explored the Kiro IDE/CLI toolsets and the creation of task-specific Custom Agents. <br> ***Module 01-04 - Cost Optimization on AWS:** <br>&emsp; -Understood Right-sizing strategies, evaluated pricing models (On-demand, Spot, Saving Plans), and recognized the cost-efficiency of Serverless architectures. <br>&emsp; - Explored the 4 AWS Support tiers (Basic, Developer, Business, Enterprise) and the architectural evaluation standards within the AWS Well-Architected Framework. | 04/20/2026 | 04/20/2026      | ***Module 01-01:** <br> https://www.youtube.com/watch?v=qVCF7UjYC5s <br> ***Module 01-02:** <br> https://www.youtube.com/watch?v=95quNuhvMT0 <br> ***Module 01-03:** <br> https://www.youtube.com/watch?v=uAQCm4sm_1c <br> ***Module 01-04:** <br> https://www.youtube.com/watch?v=UIw8UxGZCHA
+| 3   | * Understood the 6 Pillars: Security, Operational Excellence, Reliability, Performance Efficiency, Cost Optimization, and Sustainability. <br> * Navigated the AWS Well-Architected Tool to conduct practical workload risk assessments on the Console. | 04/21/2026 | 04/21/2026 |  |
+| 4   | ***Lab000001: Creating Your First AWS Account** <br>&emsp; - Provisioned the AWS account and immediately enforced Multi-Factor Authentication (MFA) on the Root account. <br>&emsp; - Created an administrative IAM Group (Admins) and a dedicated IAM User (ductin-admin). <br> ***Lab000009: Getting Help with AWS Support** <br>&emsp; Analyzed and mapped the 4 AWS Support tiers (Basic, Developer, Business, Enterprise) to appropriate real-world deployment environments. | 04/22/2026 | 04/22/2026  | ***Lab000001: Creating Your First AWS Account** <br> https://000001.awsstudygroup.com/ <br> ***Lab000009: Getting Help with AWS Support** <br> https://000009.awsstudygroup.com/  |
+| 5   | ***Lab000007: Managing Costs with AWS Budgets** <br>&emsp; - Configured an Expense Budget: Established a safety ceiling with automated email alerts triggered at 80% utilization to control financial exposure. <br>&emsp; - Configured a Preset Budget: Immediately triggering alerts upon any $0.01 unpredicted charge. <br>&emsp; - Configured a Usage Budget: Monitored the runtime of core services like EC2.| 04/23/2026 | 04/23/2026 | ***Lab000007: Managing Costs with AWS Budgets** <br> https://000007.awsstudygroup.com/|
+| 6   | ***Lab000180: Kiro Spec Driven Development** <br>&emsp; - Installed IDE Kiro and understood features of Kiro| 04/24/2026 | 04/24/2026      |  |
 
 
 ### Week 1 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+1. Understanding AWS Fundamentals
 
-* Successfully created and configured an AWS Free Tier account.
+* Grasped the core components of the AWS Global Infrastructure (Regions, Availability Zones, and Edge Locations).
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully deployed a secure AWS environment: Activated Multi-Factor Authentication (MFA) on the Root account immediately upon creation; established an administrative group (Admins) and a dedicated IAM user (ductin-admin), strictly adhering to the Principle of Least Privilege.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+2. Configuring Appropriate Budgets Based on Needs and Services
 
-* Used AWS CLI to perform basic operations such as:
+* Comprehended cost optimization strategies (Right-sizing, Serverless architectures) and evaluated AWS pricing models.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Successfully established an "Early Warning System" (Billing IDS) via AWS Budgets: Configured a financial ceiling (Expense Budget), immediate alerts for any unpredicted charge as low as $0.01 (Preset Budget), and monitored EC2 runtime (Usage Budget) to mitigate financial risks associated with account compromise.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+3. Exploring the AWS Well-Architected Framework and Support Center
+
+* Understood the 6 Pillars of the AWS Well-Architected Framework.
+
+* Utilized the AWS Well-Architected Tool on the Management Console to conduct practical workload risk assessments. Analyzed and mapped the 4 AWS Support tiers to prepare for emergency incident escalation protocols.
+
+4. Introduction to Kiro
+
+Approached modern development mindsets using Spec-Driven Development (SDD) methodologies and Agentic AI.
+
+Successfully installed and familiarized with the Kiro IDE (Amazon Q) environment.
